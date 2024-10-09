@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Reg'; /* Replace with your desired font name */
+    src: url('./fonts/Euclid Circular A Regular.ttf') format('truetype'); /* Path to your TTF file */
+    font-weight: normal; /* You can change this if needed */
+    font-style: normal; /* You can change this if needed */
+}
+@font-face {
+    font-family: 'SB'; /* Replace with your desired font name */
+    src: url('./fonts/Euclid Circular A SemiBold.ttf') format('truetype'); /* Path to your TTF file */
+    font-weight: normal; /* You can change this if needed */
+    font-style: normal; /* You can change this if needed */
+}
+@font-face {
+    font-family: 'mid'; /* Replace with your desired font name */
+    src: url('./fonts/Euclid Circular A Medium.ttf') format('truetype'); /* Path to your TTF file */
+    font-weight: normal; /* You can change this if needed */
+    font-style: normal; /* You can change this if needed */
+}
+
