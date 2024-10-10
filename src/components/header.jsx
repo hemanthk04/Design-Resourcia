@@ -6,7 +6,7 @@ import Bandbar from "./band";
 
 const Header = () => {
   return (
-    <header className="h-1/2 text-center py-4 bg-grid-pattern shadow-lg rounded-bl-[20px] rounded-br-[20px]">
+    <header className="h-1/2 text-center pb-4 bg-grid-pattern shadow-lg rounded-bl-[20px] rounded-br-[20px]">
       <Navbar />
       <Bandbar/>
       <h1 className="text-6xl font-SB text mb-2 ">Design Resourcia</h1>
