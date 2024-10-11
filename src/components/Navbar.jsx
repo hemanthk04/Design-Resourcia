@@ -12,17 +12,20 @@ const Navbar = () => {
     >
       <div className="container  flex justify-center px-4">
         <div className="flex justify-around w-full px-8  items-center">
-          <Link to ="/" className="text-sm font-Reg">
+          <Link to="/" className="text-sm font-Reg">
             Home
           </Link>
-          <Link to ="/Contact" className="text-sm font-Reg">
-            Contact
-          </Link>
-          <Link to ="#" className="text-sm font-Reg">
+
+          <Link to="#" className="text-sm font-Reg">
             Dictionary
           </Link>
-          <Link to ="#" className="text-sm font-Reg">
-            Contribute
+
+          <Link to="/Contact" className="text-sm font-Reg">
+            Contact
+          </Link>
+           
+          <Link to="/About" className="text-sm font-Reg">
+            About
           </Link>
         </div>
       </div>

@@ -8,9 +8,15 @@ const Header = () => {
   return (
     <header className="h-1/2 text-center pb-4 bg-grid-pattern shadow-lg rounded-bl-[20px] rounded-br-[20px]">
       <Navbar />
-      <Bandbar/>
-      <h1 className="text-6xl font-SB text mb-2 ">Design Resourcia</h1>
-      <p className="text font-Reg mb-8 mt-2">Search for your Design Resources</p>
+      <Bandbar />
+      <h1
+        className="text-6xl font-SB text mb-2"
+      >
+        Design Resourcia
+      </h1>
+      <p className="text font-Reg mb-8 mt-2">
+        Search for your Design Resources
+      </p>
       <div className="relative mx-auto w-2/3 lg:w-1/3 mb-1">
         <input
           type="text"
@@ -20,7 +26,7 @@ const Header = () => {
         <button className="absolute right-0 top-0 bottom-0 mr-0 px-6 py-2  rounded-tr-[2px] rounded-br-[2px]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            xml:space="preserve"
+            xmlspace="preserve"
             viewBox="0 0 101 101"
             id="search"
             className="w-7 h-7"
@@ -39,7 +45,9 @@ const Header = () => {
           <img src={ai} className="w-8 h-8 z-3"></img>
         </div>
       </div>
-      <p className="mb-10 text-xs font-Reg text-gray-800">Search Powered by Gemini-AI</p>
+      <p className="mb-10 text-xs font-Reg text-gray-800">
+        Search Powered by Gemini-AI
+      </p>
     </header>
   );
 };

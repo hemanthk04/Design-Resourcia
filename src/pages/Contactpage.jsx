@@ -25,13 +25,7 @@ const ContactPage = () => {
       <Navbar />
       <h2 className="text-2xl font-SB mt-6 flex flex-col items-center">
         <span
-          className="bg-[#FFDC12] px-2 py-1 rounded-[2] -rotate-2"
-          style={{
-            backgroundImage:
-              "url('https://www.transparenttextures.com/patterns/white-wall.png')",
-            backgroundSize: "200px 200px",
-            display: "inline-block",
-          }}
+          className="bg-yellow-400 px-2 py-1 rounded-[2] -rotate-2"
         >
           Contact Me
         </span>
@@ -40,7 +34,7 @@ const ContactPage = () => {
         <textarea
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          placeholder="Hey! What's on your mind?"
+          placeholder="Tell us what’s on your mind, we’d love to connect"
           rows="10"
           cols="70"
           className="border border-black rounded-[2px] py-4 px-4 font-Reg text-sm mt-4 resize-none focus:outline-none"
